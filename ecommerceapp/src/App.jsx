@@ -20,7 +20,10 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <Button />
+        <Button label={`count is ${count}`} color='violet' onClick={() => setCount((count) => count + 1)} />
+        <Button label='inicio' color='red'  onClick={() => console.log("Inicio")} />
+        <Button label='contactos' color='green'  onClick={() => console.log("Contacto")}/>
+        <Button label ='nosotros' color='blue'  onClick={() =>console.log("Nosotros")}/>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
