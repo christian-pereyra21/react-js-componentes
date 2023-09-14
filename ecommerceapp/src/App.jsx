@@ -8,6 +8,8 @@ function App() {
 
   return (
     <div className="App">
+      <h1 style= {{color:"orange"}}>Bass Point</h1>
+      <h2 style={{color:"lightblue"}}>Vibra a tu ritmo</h2>
       <NavBar/>
 
     </div>
